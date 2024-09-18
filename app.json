@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Chronos",
+    "slug": "chronos",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anshnanda.chronos"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anshnanda.chronos"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "130c87c3-c289-45b7-879c-38fc42daf8c6"
+      }
+    },
+    "owner": "anshnanda",
+    "updates": {
+      "url": "https://u.expo.dev/130c87c3-c289-45b7-879c-38fc42daf8c6"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
