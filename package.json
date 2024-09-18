@@ -1,5 +1,5 @@
 {
-  "name": "chronos",
+  "name": "hello",
   "main": "expo-router/entry",
   "version": "51.0.46",
   "scripts": {
@@ -48,6 +48,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@types/bun": "^1.1.9",
     "@types/jest": "^29.5.12",
     "@types/react": "~18.2.45",
     "@types/react-test-renderer": "^18.0.7",
