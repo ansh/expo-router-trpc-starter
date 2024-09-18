@@ -1,5 +1,12 @@
 # Ansh's Expo Template
 
+Expo starter setup with the following:
+- React Native & Expo
+- Expo Router
+- tRPC on `/api/trpc` API Route within the same repo
+- TaiwlindCSS with Nativewind v4
+- ESLint & Prettier
+
 ## Getting Started
 
 This project uses [Bun](https://bun.sh) as its JavaScript runtime and package manager. Make sure you have Bun installed before proceeding.
